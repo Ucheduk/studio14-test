@@ -1,0 +1,39 @@
+SpaceX Odyssey
+
+payments currency - (BTC)
+rockets - Falcon1 and	Falcon9
+
+Stations Model
+{
+  name: 'Abuja',
+  type: 'Natural',
+  orbit: 'Earth'
+},
+{
+  name: 'Spock',
+  type: 'Natural',
+  orbit: 'Mars'
+},
+{
+  name: 'International Space Station',
+  type: 'Manmade',
+  orbit: 'Earth'
+},
+{
+  name: 'Moon',
+  type: 'Natural',
+  orbit: 'Earth'
+}
+
+Fare:
+- Journey from one orbit to another on Falcon1 - 250BTC
+- Journey from one point to another in the same orbit on Falcon1 - 50BTC
+- Royalty	when landing	on man	made stations (satellites) on any rocket - 200BTC
+
+ToDo - Model the	following	fare wallet	system
+-  demonstrate a user loading a	wallet with 3000BTC
+-  demonstrate a user taking	the	following	trips, and then	viewing	the balance.
+    - Taking the Falcon9 from	Abuja	station	to the Moon
+    - Taking Falcon1 from Moon to Spock	station	on Mars
+    - Taking Falcon9 from Mars to the international Space Station (ISS)	in Lower Earth
+
