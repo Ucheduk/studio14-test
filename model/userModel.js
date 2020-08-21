@@ -9,7 +9,7 @@ class UserModel {
     return user;
   }
 
-  getAllUsers(name) {
+  getAllUsers() {
     return this.users;
   }
 

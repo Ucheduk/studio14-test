@@ -1,0 +1,25 @@
+{
+  "name": "studio14-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test-init": "npx jasmine init",
+    "test": "node spec/run.js",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ucheduk/studio14-test.git"
+  },
+  "author": "Ucheduk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ucheduk/studio14-test/issues"
+  },
+  "homepage": "https://github.com/Ucheduk/studio14-test#readme",
+  "devDependencies": {
+    "jasmine": "^3.6.1",
+    "jasmine-console-reporter": "^3.1.0"
+  }
+}

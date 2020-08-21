@@ -1,3 +1,0 @@
- Instruction on how to run the code:
- - run `node index.js`
- - result will be printed out in the console
