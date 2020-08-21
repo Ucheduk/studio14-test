@@ -17,7 +17,7 @@ describe('SpaceX Odyssey User', () => {
   makeTrip(userName, 'Falcon 9', 'Moon', 'Spock', userModel, stationModel, rocketModel);
   makeTrip(userName, 'Falcon 9', 'Spock', 'International Space Station', userModel, stationModel, rocketModel);
   
-  it('should wallet balance of 1700BTC after use case', () => {
+  it('should have wallet balance of 1700BTC after use case', () => {
     const res = userModel.getUser(userName);
     expect(res.wallet.balance).toEqual(1700);
   });
